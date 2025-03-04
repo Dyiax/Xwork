@@ -1,7 +1,7 @@
 from typing import List
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
-        return list(map(list, zip(*matrix)))
+        return list(map(list, zip(*matrix)))#transpose the matrix
     
 def main():
     solution = Solution()
@@ -9,4 +9,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
