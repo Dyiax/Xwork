@@ -8,8 +8,9 @@ class Solution:
                 left_zeros += 1
             else:
                 right_ones -= 1
-            max_score = max(max_score, left_zeros + right_ones)
-
+            #max_score = max(max_score, left_zeros + right_ones)
+            if (left_zeros + right_ones) > max_score:
+                max_score = left_zeros + right_ones
         return max_score
 
 def main():
