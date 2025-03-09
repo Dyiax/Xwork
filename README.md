@@ -1,7 +1,6 @@
-练习题
-======
+# 练习题
 
-## Directory Hierarchy
+# Directory Hierarchy
 
 ```
 |—— HOT100
@@ -61,4 +60,4 @@
 |        |—— xorOperation.py
 ```
 
-## Code Details
+# Code Details
