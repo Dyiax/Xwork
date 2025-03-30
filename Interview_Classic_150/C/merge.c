@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void merge(int* nums1, int m, int* nums2, int n) {
+void merge(int* nums1, int m, int* nums2, int n) {//int* nums1 是一个 指向整型的指针
     int i = m - 1; // nums1 的有效元素索引
     int j = n - 1; // nums2 的有效元素索引
     int k = m + n - 1; // 合并后数组的索引
